@@ -129,7 +129,7 @@ const HeroMedia = () => (
 );
 
 const StatCard = ({ stat }) => (
-  <div className="text-center border-2 border-gray-200 rounded-xl p-4">
+  <div className="text-center  border-gray-200 rounded-xl p-2 overflow-hidden hover:border-2 hover:shadow-lg transition-all duration-300 flex-1">
     <h3 className="text-3xl lg:text-2xl font-bold text-gray-700 mb-2">
       {stat.number}
     </h3>
