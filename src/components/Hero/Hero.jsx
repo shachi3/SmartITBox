@@ -11,7 +11,7 @@ import {
 
 const Hero = () => {
   return (
-    <div className="w-full bg-white pt-32 pb-20">
+    <div className="w-full bg-white pt-40 pb-20 mt-20">
       {/* Hero Main Section */}
       <div className="max-w-7xl mx-auto px-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
